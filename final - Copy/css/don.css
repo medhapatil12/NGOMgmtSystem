@@ -1,0 +1,39 @@
+html { 
+	background: url(booksbg1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.css3button {
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px ;
+  text-decoration: none;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -webkit-box-shadow: 3px 4px 9px #666666;
+  -moz-box-shadow: 3px 4px 9px #666666;
+  text-shadow: 1px 0px 3px #666666;
+  border: solid #636162 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#696869), to(#141213));
+  background: -moz-linear-gradient(top, #696869, #141213);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#a39ea0, endColorStr=#141213);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#a39ea0, endColorStr=#141213);
+  display:inline-block; 
+}
+.css3button:hover {
+  background: #1a0211;
+  cursor:pointer;
+}
+
+h1 {
+	font-family: Cambria,'Palatino Linotype','Book Antiqua','URW Palladio L',serif;
+	font-size: 40pt;
+	font-style:oblique;
+	color: #333333;
+	padding-top: 12px;
+	padding-bottom: 3px;
+}

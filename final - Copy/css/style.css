@@ -1,0 +1,322 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:10px;
+  margin:0;
+}
+
+#don{   
+color: gray;
+    
+}
+
+/* Global */
+.container{
+  width:100%;
+  margin:auto;
+  overflow:hidden;
+}
+.container h2{
+    float: center;
+
+}
+.container h1{
+    float: center;
+    padding: 0;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:;
+  background-color:yellow;
+  text-align: center;
+}
+.main h3{
+
+    color: yellow;
+    float: center;
+    font-family:monospace; 
+        text-align: center;
+    margin:auto;
+    font-size: 20px;
+    
+}
+
+#donation{
+    
+    margin: auto;
+    background-size: auto;
+font-family: serif;
+    border-bottom: yellow 3px solid;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background: black;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:yellow;
+}
+
+
+
+
+.dark{
+  padding:5px;
+  background:black;
+  color:seashell;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+/* Header **/
+header{
+  
+  color:#ffffff;
+  padding-top:0;
+  min-height:10px;
+  border-bottom:yellow 3px solid;
+}
+header a{
+  color:yellow;
+  text-decoration:none ;
+  text-transform: uppercase;
+  font-size:20px;
+}
+
+header li{
+  float:left;
+  display:inline-flex;
+  padding: 10px 20px 0 20px;
+}
+
+header #branding{
+  float:right;
+
+
+}
+header #branding h2{
+    font-style: normal;
+    font-weight: bolder;
+}
+
+header #branding h1{
+  margin:0;
+    }
+
+header nav{
+  float:center;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:palegoldenrod;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:lightyellow;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:100px;
+  width: 50%; padding:130px;
+  
+   
+           
+  text-align:center;
+  color:snow;
+}
+#showcase a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-flex;
+    text-align: center;
+}
+
+#showcase h1{
+  margin-top:90px;
+  font-size:55px;
+  margin-bottom:0;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:10px;
+  color:yellow;
+ 
+    border-bottom: yellow 3px solid;
+    height: 20%;
+}
+
+#adop{
+  padding:50px;
+  color:yellow;
+
+    border: yellow 3px solid;
+    height: 20%;
+    align-self: center;
+    }
+#newsletter h1{
+  float:left;
+    
+}
+
+#newsletter form {
+  float:left;
+  margin-top:0;
+    
+}
+
+
+#newsletter input[type="text"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+    
+}
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+#newsletter input[type="password"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:left;
+    padding: 0 20px 0 20px;
+  width:35%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+    /*Table*/
+    #Layer1{
+        min-height:100px;
+  width: 50%; padding:130px;
+  
+   
+           
+  text-align:center;
+  color:snow;
+    }
+    #Layer1 tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+} 
+    #Layer1
+    
+        input[type=text]:focus {
+    background-color: lightblue;
+
+    
+}
+    #don{
+        width:100%;
+  margin:auto;
+  overflow:hidden;
+        background-image: url(../img/IMG6.jpg);
+    }
+    div.gallery{
+        margin: 5px;
+        border: 1px yellow solid;
+        float: left;
+        width: 180px;    
+    }
+    
+    div.gallery:hover{
+        border: 1px yellow solid;
+    }
+    div.gallery img{
+        width: 100%;
+        height: auto;
+        
+    }
+   
+}
